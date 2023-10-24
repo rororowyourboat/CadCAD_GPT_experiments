@@ -1,0 +1,34 @@
+Introduction: 
+The Lotka-Volterra model is composed of a pair of differential equations that describe predator-prey (or herbivore-plant, or parasitoid-host) dynamics in their simplest case (one predator population, one prey population). It was developed independently by Alfred Lotka and Vito Volterra in the 1920's, and is characterized by oscillations in the population size of both predator and prey, with the peak of the predator's oscillation lagging slightly behind the peak of the prey's oscillation. 
+The model makes several simplifying assumptions: 1) the prey population will grow exponentially when the predator is absent; 
+2) the predator population will starve in the absence of the prey population (as opposed to switching to another type of prey); 
+3) predators can consume infinite quantities of prey; and 
+4) there is no environmental complexity (in other words, both populations are moving randomly through a homogeneous environment).
+
+Methods:  We begin by looking at what happens to the predator population in the absence of prey; without food resources, their numbers are expected to decline exponentially, as described by the following equation:
+
+ .
+
+(1)
+This equation uses the product of the number of predators (P) and the predator mortality rate (q) to describe the rate of decrease (because of the minus sign on the right-hand side of the equation) of the predator population (P) with respect to time (t). In the presence of prey, however, this decline is opposed by the predator birth rate, caíPN, which is determined by the consumption rate (aíPN, which is the attack rate[a'] multiplied by the product of the number of predators [P] times the number of prey [N]) and by the predatorís ability to turn food into offspring (c). As predator and prey numbers (P and N, respectively) increase, their encounters become more frequent, but the actual rate of consumption will depend on the attack rate (aí). The equation describing the predator population dynamics becomes
+ .
+
+(2)
+The product ca'P is the predator's numerical response, or the per capita increase as a function of prey abundance. The entire term, ca'PN, tells us that increases in the predator population are proportional to the product of predator and prey abundance.
+Turning to the prey population, we would expect that without predation, the numbers of prey would increase exponentially. The following equation describes the rate of increase of the prey population with respect to time, where r is the growth rate of the prey population, and N is the abundance of the prey population:
+
+ .
+
+(3)
+In the presence of predators, however, the prey population is prevented from increasing exponentially. The term for consumption rate from above (aíPN) describes prey mortality, and the population dynamics of the prey can be described by the equation
+ .
+
+(4)
+The product of a' and P is the predator's functional response, or rate of prey capture as a function of prey abundance (see TYPE I or TYPE II functional response modules). Here the term a'PN reflects the fact that losses from the prey population due to predation are proportional to the product of predator and prey abundances.
+Equations (2) and (4) describe predator and prey population dynamics in the presence of one another, and together make up the Lotka-Volterra predator-prey model. The model predicts a cyclical relationship between predator and prey numbers: as the number of predators (P) increases so does the consumption rate (a'PN), tending to reinforce the increase in P. Increase in consumption rate, however, has an obvious consequence-- a decrease in the number of prey (N), which in turn causes P (and therefore a'PN) to decrease. As a'PN decreases the prey population is able to recover, and N increases. Now P can increase, and the cycle begins again. This graph shows the cyclical relationship predicted by the model for hypothetical predator and prey populations.
+
+
+
+Huffaker (1958) reared two species of mites to demonstrate these coupled oscillations of predator and prey densities in the laboratory. Using Typhlodromus occidentalis as the predator and the six-spotted mite (Eotetranychus sexmaculatus) as the prey, Huffaker constructed environments composed of varying numbers of oranges (fed on by the prey) and rubber balls on trays. The oranges were partially covered with wax to control the amount of feeding area available to E. sexmaculatus, and dispersed among the rubber balls. The results of one of the many permutations of his experiments are graphed below. Note that the prey population size is on the left vertical axis and the predator population is on the right vertical axis, and that the scales of the two are different (after Huffaker, 1958 [fig.18]).
+
+Equations (2) and (4) describe predator and prey population dynamics in the presence of one another, and together make up the Lotka-Volterra predator-prey model. The model predicts a cyclical relationship between predator and prey numbers: as the number of predators (P) increases so does the consumption rate (a'PN), tending to reinforce the increase in P. Increase in consumption rate, however, has an obvious consequence-- a decrease in the number of prey (N), which in turn causes P (and therefore a'PN) to decrease. As a'PN decreases the prey population is able to recover, and N increases. Now P can increase, and the cycle begins again. This graph shows the cyclical relationship predicted by the model for hypothetical predator and prey populations.
